@@ -1,0 +1,135 @@
+TASK - Flavours of linux
+TASK - most used commands in real time (google)
+TASK - Copy or Move a dir
+TASK - chown (user id) (file name) --> Change ownership of the file owner
+TASK - chown -R (user id) (dir name) --> Change ownership of the dir owner
+TASK - chgrp (Grp id) (file name) --> changing the ownership of the group
+TASK - chgrp (Grp id) (dir name) --> changing the ownership of the group dir
+
+
+
+1. login
+2. root login
+3. whoami
+4. logout
+5. mkdir -> to create a dir
+6. touch -> to create a file
+7. nano -> to create a file
+8. vi -> to create a file
+9. cp -> to copy he file or dir
+10. mv -> to move the file or dir
+11. ls -> to list the files and dir
+12. ls -l -> long list
+13. ll -> long list
+14. ls -lrth - long list with time
+15. ls -sh ->long list with size
+16. rm -> to remove
+17. rm -f -> to remove forcefully
+18. rm -rf -> for dir
+
+19. # In VI EDITOR:
+
+ I   ---> insert mode
+ esc   ---> escape mode
+ v   ---> visual mode
+:w    ---> save
+:q   ---> exit
+:wq   ---> save and exit
+:wq!   ---> save and exit forcefully
+:/   ---> to search the word
+yy   ---> copy the 1 line
+p   ---> paste 
+dd   ---> delete the line
+:set nu   ---> set line number
+:set nonu    ---> remove the line number
+gg (or) :$   ---> switch to the first line
+shift + g   ---> switch to the last line
+
+20. head -1 filename    ---> to view the first line from the start
+21. tail -1 file name   ---> to view the first line from the last
+22. chmod 	-> changing modification
+23. top 	-> to view the cpu,mem 
+24. kill -9 	-> to kill the running processor forcefuly
+25. kill -15 	-> to kill the running processor properly
+26. ps -ef 	-> to view the running processor
+27. ps -ef | grep ec2-user 	-> to view the particular processor
+28. du -sh 	-> to view the size of disk file
+29. lsblk 	-> to view the entier disk attached in machine
+30. df -h 	-> to view the disk size
+31. gzip file name 		-> to compress the file in .gz
+32. gunzip file name 		-> to unzip the file
+33. history
+
+
+
+
+
+
+Permission
+
+file ->
+
+d r-x r-x r-x
+  401 401 401
+  5    5    5
+ 
+   U   G   O
+
+   w   r   x
+
+ 241
+
+
+-rw-r--r-- helo  ---> 644
+
+--w- r-- --x  ---> 241
+
+ chmod  644
+
+ chmod 241 helo
+
+
+R - read -> 4
+W - Write -> 2
+X - excute -> 1
+
+
+chmod 241 helo 
+
+
+chmod 
+
+R -4
+W -2
+X -1
+
+chmod 777
+
+
+zip / tar / gzip 
+
+
+google most used commands in real time  -> note down
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
